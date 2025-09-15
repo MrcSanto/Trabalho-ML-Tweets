@@ -2,6 +2,13 @@
 
 Este projeto tem como objetivo treinar e comparar modelos de Processamento de Linguagem Natural (PLN) para classificar tweets relacionados a desastres naturais. Foram testadas diferentes abordagens de vetorização e algoritmos de classificação para avaliar métricas como precisão, recall, F1-score e ROC AUC.
 
+## ⚠️ Requisitos de Sistema
+
+Este projeto deve ser executado em ambiente **Linux ou no Google Colab**.
+No Windows não é possível rodar diretamente, pois não existem *wheels* disponíveis para algumas dependências do projeto.
+
+No Linux, todas as dependências têm suporte adequado, e o projeto deve rodar como o esperado.
+
 ## Gerenciador de pacotes utilizado
 O projeto em questão utiliza o gerenciador de pacotes UV.
 
@@ -17,11 +24,6 @@ Fora que a velocidade de download dos pacotes é astronomicamente melhor!
 
   ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
-
-- Windows
-  ```bash
-  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
   ```
 
 ### Instalando as dependências
