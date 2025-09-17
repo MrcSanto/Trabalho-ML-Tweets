@@ -1207,6 +1207,7 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "tensorflow" },
+    { name = "tensorflow-text" },
     { name = "xgboost" },
 ]
 
@@ -1221,6 +1222,7 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "tensorflow", specifier = ">=2.19.1" },
+    { name = "tensorflow-text", specifier = ">=2.19.0" },
     { name = "xgboost", specifier = ">=3.0.5" },
 ]
 
