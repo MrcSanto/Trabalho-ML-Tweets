@@ -2,6 +2,8 @@
 
 Este projeto tem como objetivo treinar e comparar modelos de Processamento de Linguagem Natural (PLN) para classificar tweets relacionados a desastres naturais. Foram testadas diferentes abordagens de vetorização e algoritmos de classificação para avaliar métricas como precisão, recall, F1-score e ROC AUC.
 
+Link repositorio git: [Repositorio](https://github.com/MrcSanto/Trabalho-ML-Tweets)
+
 ## ⚠️ Requisitos de Sistema
 
 Este projeto deve ser executado em ambiente **Linux ou no Google Colab**.
